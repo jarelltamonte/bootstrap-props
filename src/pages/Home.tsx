@@ -6,6 +6,9 @@ import Product from "../components/Product";
 import l from "../images/l.png";
 import k from "../images/k.png";
 import j from "../images/j.png";
+import g from "../images/g.png";
+import s from "../images/s.png";
+import p from "../images/p.png";
 
 const Home: React.FC = () => {
   return (
@@ -58,18 +61,21 @@ const Home: React.FC = () => {
 
           <div className="product-card">
             <Product
-              productName="Super Cool Product"
-              price={2999}
+            image={g}
+              productName="Google Pixel 10 Pro XL"
+              price={1099}
               description="This is a super cool product that you will love!"
             />
             <Product
-              productName="Another Great Product"
-              price={4999}
+            image={p}
+              productName="iPhone 17 Pro Max"
+              price={1099}
               description="This is another great product that you must have!"
             />
             <Product
-              productName="Must-Have Item"
-              price={1999}
+            image={s}
+              productName="Samsung Galaxy S25 Ultra"
+              price={1099}
               description="This is a must-have item for everyone!"
             />
           </div>

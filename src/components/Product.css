@@ -4,12 +4,27 @@
     background-color: white;
     padding: 20px;
     border-radius: 16px;
-    justify-content: space-around;
     width: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-price{
     font-size: 16px;
     font-weight: bold;
     color: red;
+}
+
+.product-name{
+    font-size: 28px;
+    transform: scaleY(1.2);
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
+
+.product-img{
+    width: 250px;
+    height: 250px;
+    
 }
