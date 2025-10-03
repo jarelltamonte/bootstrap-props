@@ -1,0 +1,56 @@
+.upper-div{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    height: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 44px;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+    transform: scaleY(1.2);
+}
+
+.subtitle{
+    margin-bottom: 40px !important;
+    color: white;
+}
+
+.card-distribution{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.card{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.profile-card, .product-card{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    gap: 20px;
+}
+
+.message-card{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 10px;
+}
